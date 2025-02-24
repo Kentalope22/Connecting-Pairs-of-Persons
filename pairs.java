@@ -1,13 +1,48 @@
 
 /*
+ * pseudocode:
+ * 
+ * class pairs{
+ *  function{
+ *      int[] row
+ *      int swaps
+ * 
+ *      for i in row.length, i+=2{
+ *          int x = row[i]
+ *          int y
+ *          
+ *          if(x is even){
+ *              y = x + 1
+ *          }
+ *          else{
+ *              y = x - 1
+ *          }
+ *          
+ *          if(next index != y){
+ *              swaps++
+ *              for j (starting at i+2) in row.length, j++{
+ *                  if row[j] = y{
+ *                      int temp = row[i + 1]
+                        row[i + 1] = row[j]
+                        row[j] = temp
+                        break
+ *                  }
+ *              }
+ * 
+ *          }
+ *      
+ *      }
+ * 
+ * print result
  * 
  * 
  * 
  * 
+ * }
  * 
  * 
  * 
- * 
+ * }
  */
 
 
