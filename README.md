@@ -23,3 +23,8 @@ of the row are unique
 ## Mathematical analysis and correct Big O efficiency class
 
 In the program there are 2 loops and at worst both run n/2 times, therefore at max it will run (n^2)/4 times and it's time complexity is O(n^2)
+
+## Instructions
+
+Simply open up *pairs.java* in your chosen ide and run. if you want to change the results then 
+edit the array *rows*
