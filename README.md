@@ -19,3 +19,7 @@ Output: 0
 All couples are already seated side by side
 Assume that 𝒏 is less or equal to 30 and even. 2𝑛 represents the length of each row. All elements
 of the row are unique
+
+## Mathematical analysis and correct Big O efficiency class
+
+In the program there are 2 loops and at worst both run n/2 times, therefore at max it will run (n^2)/4 times and it's time complexity is O(n^2)
